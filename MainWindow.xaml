@@ -1,0 +1,20 @@
+﻿<Window x:Class="mcqidognqi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mcqidognqi"
+        mc:Ignorable="d"
+        Title="启动器" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" DisplayMemberPath="Id" />
+        <Button Content="启动" HorizontalAlignment="Left" Margin="655,335,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click" Height="40"/>
+        <TextBox x:Name="javapath" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="youxiang" HorizontalAlignment="Left" Height="23" Margin="10,65,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="mima" HorizontalAlignment="Left" Height="23" Margin="10,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155"/>
+        <CheckBox x:Name="zb" Content="正版登录" HorizontalAlignment="Left" Margin="13,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.461,0.625"/>
+
+
+
+    </Grid>
+</Window>
